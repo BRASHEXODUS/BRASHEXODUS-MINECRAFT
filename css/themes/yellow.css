@@ -1,0 +1,10 @@
+:root {
+    --background: hsl(0, 0%, 7%);
+    --text-color: hsl(0, 0%, 94%);
+    --btn-background: hsl(50, 100%, 50%);
+    --btn-background-dark: hsl(50, 100%, 43%);
+    --btn--accent: hsl(0, 0%, 9%);
+    --btn-color: hsl(0, 0%, 7%);
+    --trademark-color: hsl(0, 0%, 94%);
+    --swal-background: hsl(0, 0%, 5%);
+}

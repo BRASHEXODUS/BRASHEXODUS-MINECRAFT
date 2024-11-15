@@ -1,0 +1,109 @@
+particlesJS("particles-js",
+{
+   "particles":{
+    "number":{
+      "value":100,
+      "density":{
+        "enable":true,
+        "value_area":1200
+      }
+    },
+"color":{
+  "value":"random"
+},
+"shape":{
+  "type":"circle",
+  "stroke":{
+    "width":0,
+    "color": "random"
+  },
+  "polygon":{
+    "nb_sides":8
+  },
+  "image":{
+    "src":"","width":100,
+    "height":100
+  }
+},
+"opacity":{
+  "value":.7,
+  "random":true,
+  "anim":{
+    "enable":true,
+    "speed":0.8120772123013451,
+    "opacity_min":.3,
+    "sync":false
+  }
+},
+"size":{
+  "value":4,
+  "random":true,
+  "anim":{
+    "enable":true,
+  "speed":2,
+  "size_min":0.3,
+  "sync":false
+}
+},
+"line_linked":{
+  "enable":false,
+  "distance":150,
+  "color":"#ffffff",
+  "opacity":0.4,
+  "width":1
+},
+"move":{
+  "enable":true,
+  "speed":1,
+  "direction":"none",
+  "random":true,
+  "straight":false,
+  "out_mode":"out",
+  "bounce":false,
+  "attract":{
+    "enable":false,
+    "rotateX":600,
+    "rotateY":600
+  }
+}
+},
+"interactivity":{
+  "detect_on":"window",
+  "events":{
+    "onhover":{
+      "enable":true,
+      "mode":"repulse"
+    },
+    "onclick":{
+      "enable":false,
+      "mode":"bubble"
+    },
+    "resize":true
+  },"modes":{
+    "grab":{
+      "distance":400,
+      "line_linked":{
+        "opacity":1
+      }
+    },
+"bubble":{
+  "distance":316.71011279752463,
+  "size":1,
+  "duration":6.252994534720358,
+  "opacity":0,
+  "speed":3
+},
+"repulse":{
+  "distance":50,
+  "duration":0.1
+},
+"push":{
+  "particles_nb":2
+},
+"remove":{
+  "particles_nb":2
+}
+}
+},
+"retina_detect":true
+});
